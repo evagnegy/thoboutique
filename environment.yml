@@ -7,3 +7,4 @@ dependencies:
   - numpy
   - matplotlib
   - jupyter
+  - jupyter_panel_proxy
