@@ -561,6 +561,7 @@ def on_enter_click(event):
     state.cache['page'] = 2
     show_page_2()
 
+# randomize which paddington hard stare appears when a wrong button is clicked
 def on_wrong_button_click(event):
     popup_html.object = random.choice([hardstare1, hardstare2, hardstare3])
     modal.open = True
