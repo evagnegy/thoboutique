@@ -2,7 +2,7 @@ import panel as pn
 import random
 
 
-pn.extension(design="material") #needed to insure background is white (against dark mode of py.cafe or just my browser lol)
+pn.extension(design="material") #needed to ensure background is white (against dark mode of py.cafe or just my browser lol)
 pn.extension('modal') #used for popups
 
 #tracks what page youre on and what item is selected
