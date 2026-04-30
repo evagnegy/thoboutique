@@ -130,14 +130,14 @@ dropdown_enter_button = pn.widgets.Button(
 # image panes
 image_html = """
 <div style="overflow: hidden; border-radius: 10px; max-width: 100%; width: 600px;">
-    <img src="https://imgur.com/a/HljniXO" 
+    <img src="https://i.imgur.com/9UXgJvc.png" 
          style="width: 100%; margin-top: 0%; margin-bottom: 0%; display: block;">
 </div>
 """
 
 image_html_small = """
 <div style="overflow: hidden; border-radius: 10px; max-width: 100%; width: 200px;">
-    <img src="https://imgur.com/a/HljniXO" 
+    <img src="https://i.imgur.com/9UXgJvc.png" 
          style="width: 100%; margin-top: 0%; margin-bottom: 0%; display: block;">
 </div>
 """
