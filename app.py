@@ -95,7 +95,7 @@ coordinator_button = pn.widgets.Button(
 
 dropdown = pn.widgets.Select(
     name='', 
-    options=['Please select department', 'War', 'Oil', 'London Drugs PhotoLab'],
+    options=['Please select department', 'Millicent Clyde', 'Phoenix Buchanan', 'Reverend Mother', 'London Drugs PhotoLab'],
     value='Please select department',
     sizing_mode='stretch_width',
     stylesheets=["""
@@ -572,7 +572,7 @@ def on_recipient_click(event):
     
 def on_dropdown_button_click(event):
     if dropdown.value and dropdown.value != 'Please select department':
-        if dropdown.value in ['War', 'Oil']:  
+        if dropdown.value != 'London Drugs PhotoLab':  
             popup_html.object = random.choice([hardstare1, hardstare2, hardstare3])
             modal.open = True
         elif dropdown.value == 'London Drugs PhotoLab':  
