@@ -130,15 +130,15 @@ dropdown_enter_button = pn.widgets.Button(
 # image panes
 image_html = """
 <div style="overflow: hidden; border-radius: 10px; max-width: 100%; width: 600px;">
-    <img src="https://www.iboutique.ca/clients/ibout/images/Iboutique_Landing_Backgound_en.jpg?v=2" 
-         style="width: 100%; margin-top: -21%; margin-bottom: -20%; display: block;">
+    <img src="https://imgur.com/a/HljniXO" 
+         style="width: 100%; margin-top: 0%; margin-bottom: 0%; display: block;">
 </div>
 """
 
 image_html_small = """
 <div style="overflow: hidden; border-radius: 10px; max-width: 100%; width: 200px;">
-    <img src="https://www.iboutique.ca/clients/ibout/images/Iboutique_Landing_Backgound_en.jpg?v=2" 
-         style="width: 100%; margin-top: -21%; margin-bottom: -21%; display: block;">
+    <img src="https://imgur.com/a/HljniXO" 
+         style="width: 100%; margin-top: 0%; margin-bottom: 0%; display: block;">
 </div>
 """
 
